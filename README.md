@@ -40,6 +40,14 @@ npm run dev
 
 4. Open http://localhost:3000 to view the dashboard in your browser.
 
+>>## API Reference
+Base URL: https://api.coingecko.com/api/v3/
+
+Example Endpoint:
+
+/simple/price?ids=bitcoin,ethereum&vs_currencies=usd
+No authentication required for basic price data.
+
 >## Roadmap
  Real-time cryptocurrency price updates
 
