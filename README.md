@@ -40,6 +40,22 @@ npm run dev
 
 4. Open http://localhost:3000 to view the dashboard in your browser.
 
+>## Project Structure
+
+crypto-dashboard/
+├── components/
+│   ├── PriceCard.jsx      # Displays individual cryptocurrency data
+│   └── PriceChart.jsx     # (Optional) Displays live chart
+├── services/
+│   └── cryptoApi.js       # Handles API calls to CoinGecko
+├── pages/
+│   └── index.jsx          # Main dashboard page
+├── public/
+│   └── favicon.ico
+├── package.json
+└── README.md
+
+
 >>## API Reference
 Base URL: https://api.coingecko.com/api/v3/
 
