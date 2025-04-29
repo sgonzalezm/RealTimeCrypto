@@ -17,15 +17,41 @@ Built with React.js and powered by the free CoinGecko API, this dashboard fetche
 - **API Source:** [CoinGecko API](https://www.coingecko.com/en/api)
 - **Optional Styling:** TailwindCSS (highly recommended)
 
-## Getting Started
+>## Getting Started
 
-### Prerequisites
-- Node.js (v18+ recommended)
-- npm or yarn
+> ### Prerequisites
+- Node.js 
+- npm
 
-### Installation
+> ### Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/real-time-crypto-market-tracker.git
    cd real-time-crypto-market-tracker
+
+2. Install dependencies:
+
+npm install
+
+3. Start the development server:
+
+npm run dev
+
+4. Open http://localhost:3000 to view the dashboard in your browser.
+
+>## Roadmap
+ Real-time cryptocurrency price updates
+
+ Add support for multiple currencies (e.g., EUR, GBP)
+
+ Implement sparkline mini-charts for price movement
+
+ Deploy to Vercel or Netlify
+
+>## License
+This project is licensed under the MIT License.
+Feel free to use, modify, and share it!
+
+Author
+Developed by Diego Gonzalez
